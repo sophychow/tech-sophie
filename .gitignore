@@ -1,5 +1,9 @@
 # Node modules
 node_modules/
+.npm/cache/
+.npm/
+yarn.lock
+package-lock.json
 
 # Build output
 dist/
@@ -9,8 +13,3 @@ build/
 .env
 .env.local
 .env.*.local
-
-# Configuration files
-webpack.config.js
-webpack.dev.js
-webpack.prod.js
